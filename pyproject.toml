@@ -1,0 +1,36 @@
+[project]
+name = "mle-diary-of-a-ceo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "bertopic>=0.17.3",
+    "boto3>=1.40.40",
+    "en-core-web-sm==3.7.1",
+    "fastapi>=0.118.0",
+    "jupyter>=1.1.1",
+    "keybert>=0.9.0",
+    "matplotlib>=3.10.6",
+    "mlflow>=3.4.0",
+    "nltk>=3.9.1",
+    "numpy>=1.24.0,<2.0.0",
+    "ollama>=0.6.0",
+    "pandas>=2.3.2",
+    "psycopg2-binary>=2.9.10",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.5",
+    "scikit-learn>=1.7.2",
+    "seaborn>=0.13.2",
+    "spacy==3.7.4",
+    "sqlalchemy>=2.0.43",
+    "streamlit>=1.50.0",
+    "torch>=2.8.0",
+    "tqdm>=4.67.1",
+    "transformers>=4.56.2",
+    "uvicorn>=0.37.0",
+    "xgboost>=3.0.5",
+]
+
+[tool.uv.sources]
+en-core-web-sm = { url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl" }
